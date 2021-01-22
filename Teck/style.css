@@ -1,0 +1,135 @@
+:root {
+  --green:  #3BDA00;
+  --blue: #0B0974;
+}
+
+.wrapper {
+    width: 100%; /*600%*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+  }
+  .description{
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  
+  .title-sentence h5{
+    margin-left: 200px;
+    color: var(--blue);
+    font-weight: 300;
+  }
+  
+  .text-intro{
+    text-align: left;
+  } 
+  
+  .text-intro h1{
+    display: inline;
+    color: var(--blue);
+    font-weight: 500;
+  }
+
+  .text-intro .ad{
+    color: var(--green);
+  }
+
+
+  .text-intro p{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+  
+  a{
+    width: 60px;
+    padding: 0px 10px;
+    color: var(--green);
+    background-color: var(--blue);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+  }
+
+  .sidebar{
+    margin: auto;
+  }
+
+  .sidebar-paragraf span{
+    margin: 0px 40px 0 5px;
+    width: 50%;
+    padding: 10px;
+  }
+  .panel{
+    color: #000;
+  }
+/* just separetion for visual*/
+  .panel-abrev-two{
+    margin-top: 40px;
+  }
+
+
+  .bg-img{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: #ccc; 
+    position: relative;
+  }
+
+ .icon-base{
+    position: absolute;
+    bottom: 140px;
+    right: 60px;
+  }
+  .low-bg-img{
+    width: 400px;
+    height: 200px;
+    background-color: #999393;
+    z-index: -1;
+    position: absolute;
+    top: 90vh;
+    left: 55vw;
+  }
+
+  .low-bg-img .icon-simb{
+    position: absolute;
+    left: -1vw;
+    top: 4.5vh;
+  }
+
+
+  /*3rd part*/
+
+  .panel .three{
+    position: relative;
+  }
+
+  .titulo-cont p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17em;
+    font-weight: 200 italic;
+    color: var(--green);
+    z-index: 1;
+  }
+
+  .center-img{
+    width: 300px;
+    height: 400px;
+  }
+  .center-img p{
+    -webkit-transform: rotate(-80deg); 
+    font-size: 8em;
+    z-index: 9999;
+    position: absolute;
+    left: 30vw;
+    /* bottom: -91vh; */
+    top: 192vh;
+  }
+
+  
