@@ -1,0 +1,20 @@
+{
+  "name": "Teck-bugs-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan-21/Teck-bugs-review.git"
+  },
+  "keywords": [],
+  "author": "Hernan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hernan-21/Teck-bugs-review/issues"
+  },
+  "homepage": "https://github.com/Hernan-21/Teck-bugs-review#readme"
+}
